@@ -1,8 +1,9 @@
-package com.dmdh.YunMenJinSuoWeb.netty.server;
+package com.luswei.terminal.netty.server;
 
-import com.dmdh.YunMenJinSuoWeb.netty.codec.MarshallingCodecFactory;
-import com.dmdh.YunMenJinSuoWeb.netty.codec.ProtocolDecoder;
-import com.dmdh.YunMenJinSuoWeb.netty.codec.ProtocolEncoder;
+import com.luswei.terminal.netty.codec.MarshallingCodecFactory;
+import com.luswei.terminal.netty.codec.ProtocolDecoder;
+import com.luswei.terminal.netty.codec.ProtocolEncoder;
+
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

@@ -1,7 +1,7 @@
-package com.dmdh.YunMenJinSuoWeb.netty.server;
+package com.luswei.terminal.netty.server;
 
-import com.dmdh.YunMenJinSuoWeb.model.*;
-import com.dmdh.YunMenJinSuoWeb.model.SequenceType;
+import com.luswei.terminal.model.*;
+
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 

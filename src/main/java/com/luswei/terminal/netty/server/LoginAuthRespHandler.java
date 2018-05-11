@@ -1,13 +1,13 @@
-package com.dmdh.YunMenJinSuoWeb.netty.server;
-
-import com.dmdh.YunMenJinSuoWeb.model.Message;
-import com.dmdh.YunMenJinSuoWeb.model.ResponseMessage;
-import com.dmdh.YunMenJinSuoWeb.model.SequenceType;
-import com.dmdh.YunMenJinSuoWeb.model.Terminal;
+package com.luswei.terminal.netty.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import org.slf4j.LoggerFactory;
+
+import com.luswei.terminal.model.Message;
+import com.luswei.terminal.model.ResponseMessage;
+import com.luswei.terminal.model.SequenceType;
+import com.luswei.terminal.model.Terminal;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

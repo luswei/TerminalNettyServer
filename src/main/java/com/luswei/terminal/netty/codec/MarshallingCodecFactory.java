@@ -1,4 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.netty.codec;
+package com.luswei.terminal.netty.codec;
 
 import io.netty.handler.codec.marshalling.*;
 import org.jboss.marshalling.MarshallerFactory;

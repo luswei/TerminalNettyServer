@@ -1,4 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.web.controller;
+package com.luswei.terminal.web.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,8 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.dmdh.YunMenJinSuoWeb.model.ResponseMessage;
-import com.dmdh.YunMenJinSuoWeb.netty.server.YunMenJinSuoServer;
+import com.luswei.terminal.model.ResponseMessage;
+import com.luswei.terminal.netty.server.YunMenJinSuoServer;
 
 import io.netty.channel.Channel;
 

@@ -1,10 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.netty.server;
-
-import com.dmdh.YunMenJinSuoWeb.model.BasicMessage;
-import com.dmdh.YunMenJinSuoWeb.model.Message;
-import com.dmdh.YunMenJinSuoWeb.model.RecordMessage;
-import com.dmdh.YunMenJinSuoWeb.model.ResponseMessage;
-import com.dmdh.YunMenJinSuoWeb.model.SequenceType;
+package com.luswei.terminal.netty.server;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -14,6 +8,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
+
+import com.luswei.terminal.model.BasicMessage;
+import com.luswei.terminal.model.Message;
+import com.luswei.terminal.model.RecordMessage;
+import com.luswei.terminal.model.ResponseMessage;
+import com.luswei.terminal.model.SequenceType;
 
 public class WebFrameHandler extends ChannelInboundHandlerAdapter {
 

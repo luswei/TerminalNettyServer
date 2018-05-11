@@ -1,11 +1,12 @@
-package com.dmdh.YunMenJinSuoWeb.netty.codec;
+package com.luswei.terminal.netty.codec;
 
-import com.dmdh.YunMenJinSuoWeb.model.Message;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 
 import java.nio.ByteOrder;
+
+import com.luswei.terminal.model.Message;
 
 public class ProtocolDecoder extends LengthFieldBasedFrameDecoder{
 

@@ -1,4 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.web.controller;
+package com.luswei.terminal.web.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dmdh.YunMenJinSuoWeb.model.CommandType;
-import com.dmdh.YunMenJinSuoWeb.model.ResponseMessage;
-import com.dmdh.YunMenJinSuoWeb.model.SequenceType;
-import com.dmdh.YunMenJinSuoWeb.netty.server.YunMenJinSuoServer;
+import com.luswei.terminal.model.CommandType;
+import com.luswei.terminal.model.ResponseMessage;
+import com.luswei.terminal.model.SequenceType;
+import com.luswei.terminal.netty.server.YunMenJinSuoServer;
 
 @RestController
 @RequestMapping("/terminal/{id}")

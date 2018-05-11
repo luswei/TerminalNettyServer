@@ -1,6 +1,5 @@
-package com.dmdh.YunMenJinSuoWeb;
+package com.luswei.terminal;
 
-import com.dmdh.YunMenJinSuoWeb.netty.server.YunMenJinSuoServer;
 import io.netty.channel.ChannelFuture;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -8,6 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+
+import com.luswei.terminal.netty.server.YunMenJinSuoServer;
 
 import java.net.InetAddress;
 import java.net.InetSocketAddress;

@@ -1,4 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.model;
+package com.luswei.terminal.model;
 
 public class ResponseMessage {
 	

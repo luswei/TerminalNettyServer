@@ -1,4 +1,4 @@
-package com.dmdh.YunMenJinSuoWeb.netty.server;
+package com.luswei.terminal.netty.server;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;
@@ -8,13 +8,13 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Component;
 
-import com.dmdh.YunMenJinSuoWeb.model.BasicMessage;
-import com.dmdh.YunMenJinSuoWeb.model.CommandType;
-import com.dmdh.YunMenJinSuoWeb.model.Message;
-import com.dmdh.YunMenJinSuoWeb.model.SequenceType;
-import com.dmdh.YunMenJinSuoWeb.model.Terminal;
-import com.dmdh.YunMenJinSuoWeb.netty.codec.ProtocolDecoder;
-import com.dmdh.YunMenJinSuoWeb.netty.codec.ProtocolEncoder;
+import com.luswei.terminal.model.BasicMessage;
+import com.luswei.terminal.model.CommandType;
+import com.luswei.terminal.model.Message;
+import com.luswei.terminal.model.SequenceType;
+import com.luswei.terminal.model.Terminal;
+import com.luswei.terminal.netty.codec.ProtocolDecoder;
+import com.luswei.terminal.netty.codec.ProtocolEncoder;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.Channel;
